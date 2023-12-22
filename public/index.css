@@ -40,13 +40,37 @@ form{
 	margin-bottom: 5px;
 	border-radius: 4px;
 }
-.form-gender input{
+
+input{
+	height: 25px;
+	width: 100%;
+}
+
+
+select{
 	margin-top:5px;
-	display: inline;
+	margin-bottom: 10px;
+}
+
+.form-gender input{
+	border-radius: 2px;
+}
+
+/*.form-gender input{
+	height: 15px;
+	width: 5%;
+	margin-top:5px;
 	margin-bottom: 10px;
 	border-radius: 2px;
 	
 }
+
+#male{
+	display: inline;
+}
+#female{
+	display: inline;
+}*/
 
 
 h3{
@@ -55,6 +79,7 @@ h3{
 	text-shadow: 1px 3px 4px gray;
 	text-align: center;	
 }
+
 h1{
 
 	color:#c850c0;
@@ -78,24 +103,66 @@ button:hover {
 }
 
 
-
+h4{
+	margin-top: 40px;
+	font-family: Time New Roman;
+	font-size:20px;
+	font-weight: bolder;
+	text-shadow: 
+	
+}
 
 table{
 	
-	margin-top: 40px;
+	margin-top: 10px;
 	margin-bottom: 40px;
 	text-align: center;
 	background-color: #333;
 	color: #fff;
 }
 
-
+.edit-btn{
+	font-family: Time New Roman;
+	font-weight: bold;
+	color: white;
+	text-decoration:none;
+	border-radius: 3px;
+	background-color:blue;
+	padding: 2px;
+	border: 5px white;
+	
 }
+a:hover {
+
+	box-shadow: 0 0 5px cyan,
+	0 0 25px cyan;
+}
+
+.delete-btn{
+	font-family: Time New Roman;
+	font-weight: bold;
+	color: black;
+	text-decoration:none;
+	border-radius: 3px; 
+	background-color: red;
+	padding: 2px;
+	border: 5px white;
+	
+}
+
 
 #show th,#show td{
 	padding: 13px;
 
 }
 
-
+#searchUser a{
+	font-family: sans-serif;
+	font-weight: bold;
+	border-color: black;
+	border-radius: 2px;
+	background-color: white;
+	text-decoration: none;
+	padding: 4px 6px 2px 6px;
+}
 
